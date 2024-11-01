@@ -1,0 +1,74 @@
+/**
+ * All of the CSS for your admin-specific functionality should be
+ * included in this file.
+ */
+#poststuff h2, #poststuff h3.hndle {
+    font-size: 20px;
+    font-weight: 600;
+    text-decoration: underline;
+    margin-bottom: -1px;
+    padding-bottom: 0;
+}
+
+#poststuff .form-table th{
+    font-weight: 600;
+    text-align: left;
+    padding: 5px;
+}
+.inside th{
+    font-weight: 400;
+    text-align: right;
+    vertical-align: top;
+    padding-top: 8px;
+}
+#poststuff .inside .form-table td{
+    width: 80% !important;
+}
+
+#poststuff .inside .form-table td p.description{
+    margin-top: 0;
+}
+.inside td {
+    margin: 5px;
+    padding: 5px;
+    width: 70% !important;
+} 
+.inside table {
+    border: none;
+    width: 100%;
+} 
+.inside input[type="text"].custom-input, 
+.inside input[type="email"].custom-input, 
+.inside input[type="url"].custom-input {
+    width: 100%;
+}
+.nav-tab-wrapper, .wrap h2.nav-tab-wrapper, h1.nav-tab-wrapper{
+    border-bottom: 0;
+}
+ 
+ 
+.nav-tab{
+    color: #000;
+    min-width: 65px;
+    text-align: center;
+    background: #cccccc;
+}
+.nav-tab:hover,
+.nav-tab-active {
+    border-bottom: 0;
+    background: #f1f1f1; 
+}
+.group h2{
+    display: none;
+} 
+span.support{
+    padding: 0 12px;
+    font-style: italic;
+}
+.inside .metabox-holder {
+    border-top: 1px solid #ccc;
+}
+#post-body code{
+    display: block !important;
+    padding: 10px !important;
+}
